@@ -58,3 +58,24 @@
         }
     }
 }
+
+@media only screen and (max-width: 767px) {
+    .navbar {
+        .search {
+            input {
+                padding: 10px 100px 10px 30px;
+                width: 50px;
+            }
+        }
+        .profile {
+            .notification,
+            .avatar {
+                margin-left: 10px;
+                cursor: pointer;
+                svg {
+                    font-size: 26px;
+                }
+            }
+        }
+    }
+}

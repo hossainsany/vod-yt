@@ -12,7 +12,6 @@ const Feed = () => {
     useEffect(() => {
         fetchFromAPI(`search?part=snippet&q=${isSelected}`).then((data) => setVideos(data.items));
     }, [isSelected]);
-    console.log(videos[1]);
 
     return (
         <div className="home-feed">

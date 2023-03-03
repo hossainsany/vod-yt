@@ -9,7 +9,6 @@ const VideoCard = ({
         snippet,
     },
 }) => {
-    console.log(videoId, snippet);
     return (
         <div className="video-card">
             <Link to={videoId ? `/video/${videoId}` : demoVideoUrl}>

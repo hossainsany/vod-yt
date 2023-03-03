@@ -36,3 +36,42 @@
         }
     }
 }
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .video-card {
+        width: 225px;
+        margin: 10px;
+        .video-thumbnail {
+            height: 126px;
+        }
+        .video-text {
+            padding: 0 15px;
+            .video-title {
+                font-weight: 400;
+                font-size: 14px;
+            }
+            .channel-title {
+                padding-left: 0;
+                font-weight: 400;
+            }
+        }
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .video-card {
+        width: 280px;
+        margin: 10px;
+        .video-thumbnail {
+            height: 158px;
+        }
+        .video-text {
+            padding: 0 15px;
+            .video-title {
+                font-weight: 400;
+            }
+            .channel-title {
+                padding-left: 0;
+            }
+        }
+    }
+}

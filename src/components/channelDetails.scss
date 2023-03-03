@@ -1,0 +1,91 @@
+.channel-details {
+    background: #0f0f0f;
+    margin-top: 75px;
+    min-height: 95vh;
+    .bg-gradient {
+        background: linear-gradient(76deg, rgba(94, 204, 204, 1) 0%, rgba(0, 212, 255, 1) 100%);
+        height: 300px;
+        width: 100%;
+    }
+    .container {
+        max-width: 1000px;
+        margin: 0 auto;
+
+        .channel-profile {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 20px;
+            .channel-card {
+                margin: 0;
+                padding-top: 10px;
+                display: flex;
+                align-items: center;
+                .channel-icon {
+                    width: 150px;
+                }
+                .channel-text {
+                    text-align: start;
+                    padding-left: 15px;
+                    .channel-title {
+                        font-size: 24px;
+                    }
+                }
+            }
+            .subscribe {
+                padding: 10px 40px;
+                border-radius: 30px;
+                font-size: 18px;
+                border: none;
+                cursor: pointer;
+            }
+        }
+        .video-feed {
+            margin: 0;
+            padding: 0;
+            .video-card {
+                width: 310px;
+                .video-thumbnail {
+                    height: 175px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .channel-details {
+        .container {
+            width: 100%;
+            .channel-profile {
+                .channel-card {
+                    width: 100%;
+                    margin: 10px;
+                    padding-top: 0;
+                }
+                .subscribe {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 767px) {
+    .channel-details {
+        .container {
+            width: 100%;
+            .channel-profile {
+                .channel-card {
+                    width: 100%;
+                    margin: 10px;
+                    padding-top: 0;
+                }
+                .subscribe {
+                    display: none;
+                }
+            }
+        }
+    }
+}

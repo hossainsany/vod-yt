@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Navbar, Feed, Search, VideoDetails, ChannelDetails } from "./components/index";
+import { Navbar, Feed, Search, VideoDetails, ChannelDetails, Sidebar } from "./components/index";
 
 const App = () => {
     return (

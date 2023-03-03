@@ -1,0 +1,23 @@
+.search-feed {
+    width: 100%;
+    padding-top: 75px;
+    .container {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .search-title {
+        font-size: 18px;
+        font-weight: 400;
+        padding: 10px;
+    }
+    .video-feed {
+        width: 100%;
+        padding: 0;
+        .video-card {
+            width: 310px;
+            .video-thumbnail {
+                height: 175px;
+            }
+        }
+    }
+}
