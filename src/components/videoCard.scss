@@ -1,0 +1,38 @@
+.video-card {
+    width: 355px;
+    margin: 10px;
+    .video-thumbnail {
+        height: 190px;
+        border-radius: 15px;
+        background-color: #0f0f0f;
+        margin-bottom: 15px;
+        img {
+            border-radius: 15px;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    .video-text {
+        a {
+            text-decoration: none;
+        }
+        padding: 0 15px;
+        .video-title {
+            color: #fff;
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 5px;
+            border-bottom: none;
+        }
+        .channel-title {
+            color: #ffffff8f;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 15px;
+            padding-left: 2px;
+            display: flex;
+            align-items: flex-end;
+        }
+    }
+}

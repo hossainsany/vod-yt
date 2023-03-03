@@ -1,0 +1,26 @@
+.sidebar {
+    width: 250px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #0f0f0f;
+    height: 92.5vh;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    .ex {
+        font-size: 20px;
+        font-weight: 500;
+        padding: 20px 0 20px 25px;
+        margin-top: 20px;
+        border-top: 1px solid #303030;
+    }
+
+    .copyright {
+        font-size: 14px;
+        padding: 20px 0;
+        text-align: center;
+        color: #ffffff73;
+    }
+}

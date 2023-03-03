@@ -1,0 +1,21 @@
+.sidebar-btn {
+    background-color: #0f0f0f;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 10px 10px 20px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 100ms ease-in-out;
+    &:hover {
+        background-color: #272727 !important;
+    }
+    .icon {
+        margin-right: 15px;
+    }
+    .text {
+        font-size: 18px;
+    }
+}
