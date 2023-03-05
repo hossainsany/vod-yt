@@ -36,6 +36,22 @@
         }
     }
 }
+@media only screen and (min-width: 1601px) and (max-width: 1919px) {
+    .video-card {
+        width: 330px;
+        .video-thumbnail {
+            height: 185px;
+        }
+    }
+}
+@media only screen and (min-width: 1201px) and (max-width: 1600px) {
+    .video-card {
+        width: 265px;
+        .video-thumbnail {
+            height: 144px;
+        }
+    }
+}
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .video-card {
