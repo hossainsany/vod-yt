@@ -27,8 +27,6 @@ import LightbulbOutlinedIcon from "@mui/icons-material/LightbulbOutlined";
 import FeedIcon from "@mui/icons-material/Feed";
 import NewspaperOutlinedIcon from "@mui/icons-material/NewspaperOutlined";
 
-export const logo = "img/vod-logo-light.png";
-
 export const categories = [
     { name: "New", filledIcon: <HomeIcon />, outlined: <HomeOutlinedIcon /> },
     { name: "NeatTech", filledIcon: <CodeIcon />, outlined: <CodeOutlinedIcon /> },
