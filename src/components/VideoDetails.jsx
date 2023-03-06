@@ -19,7 +19,7 @@ const VideoDetails = () => {
 
     if (!videoDetails?.snippet) return "Loadning...";
     const {
-        snippet: { title, channelId, channelTitle },
+        snippet: { title, channelId, channelTitle, description },
         statistics: { viewCount, likeCount },
     } = videoDetails;
 
@@ -38,6 +38,9 @@ const VideoDetails = () => {
                             <div className="views">{parseInt(viewCount).toLocaleString()} Views</div>
                         </div>
                     </div>
+                </div>
+                <div className="video-description">
+                    <p>{description}</p>
                 </div>
             </div>
 

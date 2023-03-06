@@ -39,6 +39,17 @@
                 }
             }
         }
+        .video-description {
+            margin: 20px 0;
+            padding: 20px 0;
+            border-top: 1px solid #ffffff1a;
+            p {
+                font-size: 16px;
+                line-height: 20px;
+                color: #fff;
+                opacity: 0.8;
+            }
+        }
     }
     .suggested-videos {
         .video-feed {
@@ -150,6 +161,9 @@
                     color: #fff;
                 }
             }
+            .video-description {
+                display: none;
+            }
         }
         .suggested-videos {
             .video-feed {
@@ -187,6 +201,9 @@
                     padding: 15px 0 15px 0;
                     color: #fff;
                 }
+            }
+            .video-description {
+                display: none;
             }
         }
         .suggested-videos {
