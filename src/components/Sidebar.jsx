@@ -14,7 +14,11 @@ const Sidebar = ({ isSelected, setIsSelected }) => {
             {explore.map((ex) => {
                 return <SidebarBtn category={ex} isSelected={isSelected} key={ex.name} setIsSelected={setIsSelected} />;
             })}
-            <p className="copyright">All rights reserved © Hossain Sany</p>
+            <div className="copyright">
+                 <p className="copyright">All rights reserved © 2024</p>
+                <p><a href="httsp://hossainsany.com">Hossain Sany</a> | <a href="https://webexis.net">Webexis</a></p>
+            </div>
+            
         </div>
     );
 };
